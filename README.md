@@ -7,9 +7,19 @@
 
 ### Tutorial
 (Author: Anindita Maiti)
-- Tutorial 1: KL Divergence
-- Tutorial 2: Neural ODEs (resource - [Neural Ordinary Differential Equations](https://arxiv.org/pdf/1806.07366.pdf) by Chen et. al.)
-- Tutorial 3: Normalizing Flows (resource - [Variational Inference with Normalizing Flows](https://arxiv.org/abs/1505.05770) by Rezende et. al.)
+
+Outline of tutorials
+- [Tutorial 3.1 KL Divergence](https://github.com/iaifi/summer-school-2023/blob/main/Tutorial%203.1%20KL_divergence.ipynb) ([Solution](https://github.com/iaifi/summer-school-2023/blob/main/Tutorial%203.1%20Solution_KL_divergence.ipynb))
+- [Tutorial 3.2 Neural ODEs](https://github.com/iaifi/summer-school-2023/blob/main/Tutorial%203.2%20Neural_ODE.ipynb) ([Solution](https://github.com/iaifi/summer-school-2023/blob/main/Tutorial%203.2%20Solution_Neural_ODE.ipynb))
+- [Tutorial 3.3 Normalizing Flows for Scalar Field Theory](https://github.com/iaifi/summer-school-2023/blob/main/Tutorial%203.3%20Normalizing_Flows_2D_Scalar_Field_Theory.ipynb) (Solution will be provided during actual tutorial session.)
+
+Reference papers and book chapters for tutorials
+- [Neural Ordinary Differential Equations](https://arxiv.org/pdf/1806.07366.pdf) by Chen et. al.
+- [Introduction to Normalizing Flows for Lattice Field Theory](https://arxiv.org/abs/2101.08176) by Boyda et. al.
+- [Learning Lattice Quantum Field Theories with Equivariant Continuous Flows](https://arxiv.org/abs/2207.00283) by Gerdes et. al. 
+- [Variational Inference with Normalizing Flows](https://arxiv.org/abs/1505.05770) by Rezende et. al.
+- [Quantum Field Theory](https://www.cambridge.org/highereducation/books/quantum-field-theory/718DD037728FB3745F48A40A6D9A8A1C#overview), Mark Srednicki, Cembridge University Press, Chapter 9.
+- [Quantum Field on a Lattice](https://www.cambridge.org/core/books/quantum-fields-on-a-lattice/4401A88CD232B0AEF1409BF6B260883A), Istvan Montvay and Gernot Munster, Cambridge University Press, Chapters 1, 2.
 
 
 ## 2. Statistical Physics and Geometry of Overparameterization
@@ -20,11 +30,18 @@
 ### Tutorial
 (Author: Di Luo)
 
+[Overparameterization code](poly_fit-checkpoint.ipynb)
+
+Tutorial 1.1 overparameterization.ipynb
+
+Tutorial 1.2 linreg_diabetes.ipynb
+
+Tutorial 1.3 linreg_ising.ipnyb
 
 ## 3. Generative modeling, with connection to and applications in physics
 (Author: Siddharth Mishra-Sharma)
 
-- Preliminary slides: https://smsharma.github.io/iaifi-summer-school-2023/
+- Slides: https://smsharma.github.io/iaifi-summer-school-2023/
 
 ### Useful materials
 
@@ -39,16 +56,38 @@ Code:
 
 ### Tutorial
 (Author: Carol Cuesta-Lazaro)
-
+- [Tutorial's repo](https://github.com/florpi/summer_school_generative)
+- [Tutorial 1: Understanding Variational Inference with jax](https://github.com/florpi/summer_school_generative/blob/main/1_variational_inference_with_jax.ipynb)
+- [Tutorial 2: Latent variable models for galaxy images with VAEs](https://github.com/florpi/summer_school_generative/blob/main/2_variational_autoencoders.ipynb)
+- [Tutorial 3: Diffusion models for particle physics](https://github.com/florpi/summer_school_generative/blob/main/3_diffusion_models.ipynb)
 
 ## 4. Astrostatistics
 (Author: Joshua Speagle)
-
+- Slides: https://github.com/alexandergagliano/InterpretabilityDemos/blob/main/JoshuaSpeagle_iaifi_bayesml_08-10-2023.pdf
+  
 ### Useful materials
+Shapley Values:
+- [A Unified Approach to Interpreting Model Predictions](https://github.com/shap/shap) (Lundberg & Lee, 2017)
+- [Explaining Predictive Uncertainty with Information Theoretic Shapley Values](https://arxiv.org/pdf/2306.05724.pdf) (Watson et al., 2023)
+- [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/), Christoph Molnar
 
+Counterfactuals:
+- [Alibi Explain: Algorithms for Explaining Machine Learning Models](https://github.com/SeldonIO/alibi) (Klaise, Van Looveren, Vacanti, & Alexandru Coc, 2017)
+- [Machine Learning Tutorials](https://github.com/MichelleLochner/ml-tutorials/tree/main), Michelle Lochner
+- [Interpretable Counterfactual Explanations Guided by Prototypes](https://arxiv.org/abs/1907.02584), (Van Looveren & Klaise, 2019)
+
+Saliency Maps:
+- [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/abs/1312.6034), Simonyan et al., 2013 - implemented [here](https://github.com/sunnynevarekar/pytorch-saliency-maps/blob/master/Saliency_maps_in_pytorch.ipynb).
+- [Visualizing and Understanding Convolutional Networks](http://arxiv.org/abs/1311.2901), Zeiler et al. (2013) 
+- [Striving for Simplicity - The All Convolutional Net](http://arxiv.org/abs/1412.6806), Springenberg et al. (2015)
+- [SmoothGrad: removing noise by adding noise](https://arxiv.org/abs/1706.03825), Smilkov et al. (2017)
+  
 ### Tutorial
 (Author: Alex Gagliano)
-
+- [Tutorial's repo](https://github.com/alexandergagliano/InterpretabilityDemos)
+- [Tutorial 1: SHAP Values: Origins and Applications](https://github.com/alexandergagliano/InterpretabilityDemos/blob/main/Tutorial%204.1%20Shapley.ipynb)
+- [Tutorial 2: Counterfactual Explanations](https://github.com/alexandergagliano/InterpretabilityDemos/blob/main/Tutorial%204.2%20Counterfactual.ipynb)
+- [Tutorial 3: Gradient-Based Saliency Maps for Neural Network Interpretability](https://github.com/alexandergagliano/InterpretabilityDemos/blob/main/Tutorial%204.3%20PixelAttribution.ipynb)
 
 ## 5. Incorporating Symmetry into Deep Dynamics Models
 (Author: Robin Walters)
@@ -56,4 +95,5 @@ Code:
 ### Useful materials
 
 ### Tutorial
-(Author: Ray Wang)
+(Author: Rui Wang)
+- [Tutorial Symmetry and Equivariant Models](https://github.com/iaifi/summer-school-2023/blob/main/Tutorial_Symmetry.ipynb) 
